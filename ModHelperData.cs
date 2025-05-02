@@ -1,0 +1,13 @@
+namespace SpeedChanger;
+
+public static class ModHelperData
+{
+    public const string WorksOnVersion = "47.0";
+    public const string Version = "1.0.0";
+    public const string Name = "SpeedChanger";
+
+    public const string Description = "Adds hotkeys to half or double the speed of the game, or quickly reset to regular speed. Can go below 1x speed in sandbox.";
+
+    public const string RepoOwner = "iXendeRouS";
+    public const string RepoName = "SpeedChanger";
+}
