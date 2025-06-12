@@ -24,7 +24,7 @@ public class SpeedChanger : BloonsTD6Mod
         set
         {
             bool isSandbox = InGame.instance != null && InGameData.CurrentGame != null && InGameData.CurrentGame.IsSandbox;
-            int minPower = isSandbox ? MinSpeedPower : MinSpeedPowerNonSandbox;
+            int minPower = isSandbox || Settings.SlowmoOutsideSandbox ? MinSpeedPower : MinSpeedPowerNonSandbox;
 
             int clampedValue = Math.Clamp(value, minPower, MaxSpeedPower);
             if (_speedPower != clampedValue)

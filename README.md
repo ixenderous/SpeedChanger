@@ -6,6 +6,6 @@
 SpeedChanger
 </h1>
 
-Adds hotkeys to half or double the speed of the game, or quickly reset to regular speed. Can go below 1x speed in sandbox.
+Adds hotkeys to half or double the speed of the game, or quickly reset to regular speed.
 
 [![Requires BTD6 Mod Helper](https://raw.githubusercontent.com/gurrenm3/BTD-Mod-Helper/master/banner.png)](https://github.com/gurrenm3/BTD-Mod-Helper#readme)
